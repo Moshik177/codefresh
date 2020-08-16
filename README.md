@@ -30,4 +30,4 @@ all i need to do is:
 1.link this githab to get the latest changes, 
 2.run maven command to create a jar (mvn clean install)
 3.create and build a docker image (for selenium test i needed dokcer with chrome installed, and also linux with java for the others)
-3.after that using commandline java -jar with the test that we want
+4.after that using commandline java -jar with the test that we want
