@@ -25,9 +25,9 @@ i add the the codefresh cli file as part of the resources both for windows and l
 for the ui i used selenium with page object methodology, i also add an option at the future to create different browsers(currently i used chrome as baseline)
 the test of the selenium is not done, need to handle the template yaml better (put the build part as commant) 
 
-for the second part i add chromedriver and codefresh cli file both for linux to handle at case i use a docker,
-all i need to do is:
-1.link this githab to get the latest changes, 
+for the second part i add chromedriver and codefresh cli files for linux environment to handle the case that i will use a docker,
+all i need to do next is:
+1.link this github to get the latest changes
 2.run maven command to create a jar (mvn clean install)
-3.create and build a docker image (for selenium test i needed dokcer with chrome installed, and also linux with java for the others)
+3.create and build a docker image (for selenium test i needed docker with chrome installed, for the others i need linux with java)
 4.after that using commandline java -jar with the test that we want
